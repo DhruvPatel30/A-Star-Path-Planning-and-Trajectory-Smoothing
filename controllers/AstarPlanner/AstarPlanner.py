@@ -209,6 +209,8 @@ if __name__ == "__main__":
             [0, 1, 0, 0, 0, 0, 1, 0, 0, 0],
             [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]]
             
+
+            
     heuristic = [[18, 17, 16, 15, 14, 13, 12, 11, 10, 9],
                  [17, 16, 15, 14, 13, 12, 11, 10, 9, 8],
                  [16, 15, 14, 13, 12, 11, 10, 9, 8, 7],
@@ -265,6 +267,7 @@ if __name__ == "__main__":
     print("------ final waypoints -----")
     print(f_waypoints)
     
+    z_pos_neg = [ -x for x in z_pos]
     fig = plt.figure()
     fig.suptitle('X - Z position', fontsize=16)
     ax = fig.add_subplot(1, 1, 1)
@@ -279,7 +282,7 @@ if __name__ == "__main__":
     ax.xaxis.set_ticks_position('bottom')
     ax.yaxis.set_ticks_position('left')
     
-    plt.plot(x_pos, z_pos)
+    plt.plot(x_pos, z_pos_neg)
     plt.xlabel("X axis")
     plt.ylabel("Z axis")
     #plt.plot(x_pos, z_pos, 'o', color='red')

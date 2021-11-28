@@ -29,6 +29,8 @@ z_waypoint = []
 Robot1 = AstarPlanner()
 plan, f_waypoints = Robot1.get_plan_and_waypoints()
 
+#print(f_waypoints)
+
 x_waypoint.append(f_waypoints[0][0][0])
 z_waypoint.append(f_waypoints[0][0][1])
 T = [0, 8, 12, 16, 20, 24, 28, 34, 38, 44]
@@ -101,7 +103,9 @@ for i in range(len(f_waypoints)-1):
             right_motor.setVelocity(0)
             left_motor.setVelocity(0)
             
-            
+
+z_pos_neg = [ -x for x in z_pos]   
+z_waypoint_neg = [ -x for x in z_waypoint]         
 fig = plt.figure()
 fig.suptitle('X - Z position', fontsize=16)
 ax = fig.add_subplot(1, 1, 1)
@@ -116,8 +120,8 @@ ax.spines['top'].set_color('none')
 ax.xaxis.set_ticks_position('bottom')
 ax.yaxis.set_ticks_position('left')
 
-plt.plot(x_pos, z_pos)
-plt.plot(x_waypoint, z_waypoint, 'o', color='red')
+plt.plot(x_pos, z_pos_neg)
+plt.plot(x_waypoint, z_waypoint_neg, 'o', color='red')
 plt.xlabel("X axis")
 plt.ylabel("Z axis")
 #plt.plot(x_pos, z_pos, 'o', color='red')
