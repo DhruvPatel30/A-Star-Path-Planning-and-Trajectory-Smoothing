@@ -13,7 +13,7 @@ Two controllers have been implemented, which can be found in the controllers fol
 
 The environment consist of a 10*10 grid in WEBOTS, which can be seen below. The northwest corner is the start point of the robot and south east corner is the goal position of the robot. The black box denotes the obstacles in the environment. 
 
-<img src="images/world.png" width="360">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/world.png" width="360">
 
 ### Demonstration of A* without Path Smoothing.
 
@@ -25,6 +25,6 @@ https://user-images.githubusercontent.com/30457807/143781670-f0218615-018b-4831-
 
 ### Path trajectory of the Robot after smoothing the path.
 
-<img src="images/Webots_smooth.png" width="360"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/Webots_smooth.png" width="360"> 
 
 The red dot denotes the intermidiate waypoints, start node and goal node. 
