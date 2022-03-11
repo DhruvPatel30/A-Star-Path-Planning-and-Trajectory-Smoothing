@@ -1,3 +1,6 @@
+It's a joint work between - 
+- [Yash Patel](https://www.github.com/yyashpatel)
+- [Dhruv Patel](https://www.github.com/yyashpatel)
 
 # Implementation of A* and Path smoothing.
 
